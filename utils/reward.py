@@ -26,7 +26,7 @@ def get_reward(F, RF, drive):
     #print("orig reward", R)
     path = './rewards_mod.csv'
     if drive == 1:
-        path = "/content/LMDP/rewards_mod.csv"
+        path = "/content/DPM_BIRL/rewards_mod.csv"
     df = pd.read_csv(path, sep=',', header=None)
     u=df.values
 
